@@ -2,11 +2,47 @@
   display: flex;
 }
 
+/* SIDE BAR */
+
 .side-bar {
+  position: relative;
   width: 450px;
   height: 100vh;
 }
 
 .bg-image {
   height: 100vh;
+}
+
+.logo-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+
+  background-color: rgba(0, 0, 0, 0.448);
+  padding: 12px 0 12px 0;
+}
+
+.logo-title {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.footer-content {
+  position: absolute;
+  bottom: 12px;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
