@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+}
+
+.side-bar {
+  width: 450px;
+  height: 100vh;
+}
+
+.bg-image {
+  height: 100vh;
+}
