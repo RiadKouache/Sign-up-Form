@@ -55,10 +55,12 @@ footer {
 
 .main-section {
   background-color: #e8e8e8;
+  flex: 2;
 }
 
 .introduction {
   padding-left: 32px;
+  padding-right: 32px;
   padding-top: 120px;
   padding-bottom: 32px;
 }
