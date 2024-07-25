@@ -54,6 +54,10 @@ footer {
 
 /* MAIN SECTION */
 
+.main-section {
+  background-color: #e8e8e8;
+}
+
 .introduction {
   padding-left: 32px;
   padding-top: 120px;
@@ -62,8 +66,29 @@ footer {
 
 .introduction p {
   font-weight: 500;
+  font-size: 20px;
 }
 
 .para {
   padding-bottom: 18px;
+}
+
+.tag:hover,
+.tag:active {
+  color: #596d48;
+}
+
+/* FORM SUB-SECTION */
+
+.form-container {
+  background-color: #fff;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+.form-caption {
+  font-weight: 450;
+  font-size: 1.4rem;
+  padding-bottom: 16px;
 }
