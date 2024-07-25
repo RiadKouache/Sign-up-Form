@@ -5,12 +5,11 @@
 /* SIDE BAR */
 
 .side-bar {
+  background-image: url(images/bg_image.jpg);
+  background-size: cover;
+  flex: 1;
   position: relative;
   width: 450px;
-  height: 100vh;
-}
-
-.bg-image {
   height: 100vh;
 }
 
